@@ -11,8 +11,8 @@ voice (){
     
 }
 
-echo "Waifu $var1 and $var2"
+echo "Waifu sebelum function $var1 and $var2"
 voice
-echo "Waifu $var1 and $var2"
+echo "Waifu sesudah function $var1 and $var2"
 # The script starts by defining two global variables var1 and var2. Then there is an function that sets a local variable var1 and modifies the global variable var2.
 # Refence :https://linuxize.com/post/bash-functions/

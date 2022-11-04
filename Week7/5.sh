@@ -1,9 +1,10 @@
 # make funtion area of persegi
 area_square(){
     panjang=$1
-    lebar=$2
-    area=$(($panjang * $lebar))
-    echo "area of square $panjang * $lebar is :$area "
+    area=$(($panjang * $panjang))
+    echo "area of square $panjang * $panjang is :$area "
 
 }
-area_square 10 10
+echo 'masukan sisi'
+read sisi
+area_square $sisi
